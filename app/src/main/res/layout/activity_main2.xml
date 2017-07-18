@@ -3,7 +3,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent">
     <EditText
-        android:id="@+id/input_edit_text"
+        android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -15,14 +15,14 @@
         android:layout_gravity="center_vertical|center_horizontal"
         android:orientation="horizontal" >
         <Button
-            android:id ="@+id/send_button"
+            android:id ="@+id/reject_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/send_button" />
+            android:text="@string/reject_button" />
         <Button
-            android:id ="@+id/clear_button"
+            android:id ="@+id/confirm_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/clear_button" />
+            android:text="@string/confirm_button" />
     </LinearLayout>
-  </FrameLayout>
+</FrameLayout>
