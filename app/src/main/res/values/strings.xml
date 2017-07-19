@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="send_button">Отправить</string>
+    <string name="clear_button">Очистить</string>
+    <string name="confirm_button">Подтвердить</string>
+    <string name="reject_button">Отклонить</string>
 </resources>
