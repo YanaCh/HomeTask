@@ -5,4 +5,6 @@
     <string name="clear_button">Очистить</string>
     <string name="confirm_button">Подтвердить</string>
     <string name="reject_button">Отклонить</string>
+    <string name="info_reject_toast">Вы отклонили операцию</string>
+    <string name="info_confirm_toast">Вы подтвердили операцию</string>
 </resources>
