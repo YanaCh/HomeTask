@@ -3,16 +3,12 @@ package com.example.yana.myapplication;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Main2Activity extends AppCompatActivity {
+public class ChildActivity extends AppCompatActivity {
     public final static String EXTRA_SEND =
             "com.example.yana.myapplication.send";
     public static final String EXTRA_ANSWER = "com.example.yana.myapplication.answer";
@@ -24,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
     private EditText mEditText;
 
     public static Intent newIntent (Context context, String isSend){
-        Intent i = new Intent(context,Main2Activity.class);
+        Intent i = new Intent(context,ChildActivity.class);
         i.putExtra(EXTRA_SEND, isSend);
             return i;
     }
@@ -47,7 +43,7 @@ public class Main2Activity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent i = new Intent(Main2Activity.this, MainActivity.class);
+        Intent i = new Intent(ChildActivity.this, MainActivity.class);
         startActivity(i);
     }
 

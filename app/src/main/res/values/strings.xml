@@ -7,4 +7,7 @@
     <string name="reject_button">Отклонить</string>
     <string name="info_reject_toast">Вы отклонили операцию</string>
     <string name="info_confirm_toast">Вы подтвердили операцию</string>
+    <string name="info_confirm_text_view">Пользователь подтвердил адрес</string>
+    <string name="info_reject_text_view">Пользователь отклонил адрес</string>
+    <string name="ok_butoon">OK</string>
 </resources>
